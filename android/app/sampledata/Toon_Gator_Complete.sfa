@@ -1,0 +1,256 @@
+{
+  materials: [
+    {
+      name: 'Material',
+      parameters: [
+        {
+          baseColor: 'T_Gator_Tail',
+        },
+        {
+          baseColorTint: [
+            0.64000000000000001,
+            0.64000000000000001,
+            0.64000000000000001,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Material_1',
+      parameters: [
+        {
+          baseColor: 'Toon_Gator_Eyes',
+        },
+        {
+          baseColorTint: [
+            0.64000000000000001,
+            0.64000000000000001,
+            0.64000000000000001,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Material_2',
+      parameters: [
+        {
+          baseColor: 'T_Gator_Belly',
+        },
+        {
+          baseColorTint: [
+            0.64000000000000001,
+            0.64000000000000001,
+            0.64000000000000001,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Material_3',
+      parameters: [
+        {
+          baseColor: 'T_Gator_Hands',
+        },
+        {
+          baseColorTint: [
+            0.64000000000000001,
+            0.64000000000000001,
+            0.64000000000000001,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Material_4',
+      parameters: [
+        {
+          baseColor: 'T_Gator_Wood',
+        },
+        {
+          baseColorTint: [
+            0.64000000000000001,
+            0.64000000000000001,
+            0.64000000000000001,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Material_5',
+      parameters: [
+        {
+          baseColor: 'T_Gator_Limbs',
+        },
+        {
+          baseColorTint: [
+            0.64000000000000001,
+            0.64000000000000001,
+            0.64000000000000001,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Material_7',
+      parameters: [
+        {
+          baseColor: 'T_Gator_Face',
+        },
+        {
+          baseColorTint: [
+            0.64000000000000001,
+            0.64000000000000001,
+            0.64000000000000001,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/Toon_Gator_Complete.obj',
+    name: 'Toon_Gator_Complete',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      file: 'sampledata\\T_Gator_Hands.png',
+      name: 'T_Gator_Hands',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'T_Gator_Hands.png',
+    },
+    {
+      file: 'sampledata\\T_Gator_Tail.png',
+      name: 'T_Gator_Tail',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'T_Gator_Tail.png',
+    },
+    {
+      file: 'sampledata\\Toon_Gator_Eyes.png',
+      name: 'Toon_Gator_Eyes',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'Toon_Gator_Eyes.png',
+    },
+    {
+      file: 'sampledata\\T_Gator_Belly.png',
+      name: 'T_Gator_Belly',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'T_Gator_Belly.png',
+    },
+    {
+      file: 'sampledata\\T_Gator_Face.png',
+      name: 'T_Gator_Face',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'T_Gator_Face.png',
+    },
+    {
+      file: 'sampledata\\T_Gator_Limbs.png',
+      name: 'T_Gator_Limbs',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'T_Gator_Limbs.png',
+    },
+    {
+      file: 'sampledata\\T_Gator_Wood.png',
+      name: 'T_Gator_Wood',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'T_Gator_Wood.png',
+    },
+  ],
+  version: '0.54:2',
+}
